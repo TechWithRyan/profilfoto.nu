@@ -15,7 +15,7 @@ function App() {
    <div className='App'>
     </div>
       <nav className='nav'>
-          <Link to="/"><h1 className='logo-text'>ProfilFoto.nu</h1></Link>
+          <Link to="/"><h1 className='logo-text'>Profil<span className='color'>Foto.nu</span></h1></Link>
         <ul className='navbar'>
           <li>
             <Link to="/">Hem</Link>
@@ -24,7 +24,7 @@ function App() {
             <Link to="/Price">Priser</Link>
           </li>
           <li>
-            <Link to="/About">Om mig</Link>
+            <Link to="/About">Kontakt</Link>
           </li>
           <li>
             <Link to="/Medialist">Media</Link>
