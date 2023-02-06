@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
   text-decoration: none;
+  color: white;
 }
 
 body {
@@ -45,7 +46,11 @@ body {
 }
 
 a:focus {
-  color: white;
+  color: rgb(19, 124, 252);
+}
+
+.color {
+  color: rgb(19, 124, 252);
 }
 
 a:active {
@@ -53,7 +58,7 @@ a:active {
 }
 
 a:hover {
-  color: aliceblue;
+  color: rgb(19, 124, 252);
   transition: ease-in 0.8s;
   font-size: larger;
 }
@@ -73,6 +78,7 @@ a:link {
   display: flex;
   float:inline-start;
   align-items: center;
+  font-size: 2rem;
 }
 
 .home-info{
@@ -109,4 +115,9 @@ a:link {
 
 .header p{
   padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+flex-wrap: wrap;  }
 }
