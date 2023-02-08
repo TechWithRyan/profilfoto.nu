@@ -12,7 +12,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: fill;
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App {
@@ -28,22 +30,9 @@ body {
   align-items: center;
 }
 
-.navbar {
-  text-decoration: none;
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  height: 4rem;
-  align-items: center;
-}
 
-.navbar li {
-  color: aliceblue;
-  cursor: pointer;
-  list-style: none;
-  font-size: x-large;
-  margin: 20px;
-}
+
+
 
 a:focus {
   color: rgb(19, 124, 252);
@@ -73,15 +62,15 @@ a:link {
   display: flex;
 }
 
-.logo-text{
+.logo-text {
   color: white;
   display: flex;
-  float:inline-start;
+  float: inline-start;
   align-items: center;
   font-size: 2rem;
 }
 
-.home-info{
+.home-info {
   color: white;
   justify-content: center;
   display: flex;
@@ -107,17 +96,20 @@ a:link {
   display: flex;
 }
 
-.greeting{
+.media-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting {
   display: flex;
   flex-direction: column;
 
 }
 
-.header p{
+.header p {
   padding: 20px;
 }
 
-@media screen and (max-width: 600px) {
-  .nav {
-flex-wrap: wrap;  }
-}
