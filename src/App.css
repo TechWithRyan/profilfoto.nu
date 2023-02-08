@@ -75,15 +75,15 @@ a:link {
   display: flex;
 }
 
-.logo-text{
+.logo-text {
   color: white;
   display: flex;
-  float:inline-start;
+  float: inline-start;
   align-items: center;
   font-size: 2rem;
 }
 
-.home-info{
+.home-info {
   color: white;
   justify-content: center;
   display: flex;
@@ -116,17 +116,27 @@ a:link {
   align-items: center;
 }
 
-.greeting{
+.greeting {
   display: flex;
   flex-direction: column;
 
 }
 
-.header p{
+.header p {
   padding: 20px;
 }
 
 @media screen and (max-width: 600px) {
   .nav {
-flex-wrap: wrap;  }
+    flex-wrap: wrap;
+  }
+
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+  }
+
 }

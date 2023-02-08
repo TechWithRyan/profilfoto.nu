@@ -8,27 +8,22 @@ import Media from './Pages/Media';
 import NewMedia from './Pages/NewMedia';
 import NotFound from './Pages/NotFound';
 import Footer from './components/Footer';
+import { Twirl as Hamburger } from 'hamburger-react'
 import { useState } from 'react';
+import { Sidebar, Menu, SubMenu, MenuItem, useProSidebar } from 'react-pro-sidebar';
+
 
 function App() {
-  const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
-  const [menu_class, setMenuClass] = useState("menu hidden")
-  const [isMenuClicked, setIsMenuClicked] = useState(false)
+  const [isOpen, setOpen] = useState(false)
+  const { collapseSidebar, toggleSidebar, collapsed, toggled, broken, rtl } = useProSidebar();
+
   return (
     <>
-   
-   <div className='App'>
-    </div>
       <nav className='nav'>
 
-      <div className='burger-menu'>
-      <div className={burger_class}></div>
-      <div className={burger_class}></div>
-      <div className={burger_class}></div>
 
-      </div>
-          <Link to="/"><h1 className='logo-text'>Profil<span className='color'>Foto.nu</span></h1><p>Bild & Video i Kungälv, Göteborg.</p></Link>
-          
+        <Link to="/"><h1 className='logo-text'>Profil<span className='color'>Foto.nu</span></h1><p>Bild & Video i Kungälv, Göteborg.</p></Link>
+
         <ul className='navbar'>
           <li>
             <Link to="/">Hem</Link>
@@ -45,12 +40,11 @@ function App() {
         </ul>
         <Footer />
       </nav>
-      <div className={menu_class}></div>
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Media">
-          <Route path=":id" element={<Media /> } />
+          <Route path=":id" element={<Media />} />
         </Route>
         <Route path="/Price" element={<Price />} />
         <Route path="/About" element={<About />} />
@@ -59,6 +53,19 @@ function App() {
         <Route path="/Media/new" element={<NewMedia />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <div className='App' id="outer-container">
+        <Hamburger size={20} toggled={isOpen} toggle={setOpen} />
+        <Sidebar>
+          <Menu>
+            <SubMenu label="Meny">
+              <MenuItem> Pie charts </MenuItem>
+              <MenuItem> Line charts </MenuItem>
+            </SubMenu>
+            <MenuItem> Priser </MenuItem>
+            <MenuItem> Media </MenuItem>
+          </Menu>
+        </Sidebar>
+      </div>
     </>
 
   );
