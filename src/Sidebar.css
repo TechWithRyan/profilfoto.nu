@@ -14,7 +14,7 @@
   
   /* Color/shape of burger icon bars on hover*/
   .bm-burger-bars-hover {
-    background: #a90000;
+    background: #0d8bdf;
   }
   
   /* Position and sizing of clickable cross button */
@@ -25,7 +25,7 @@
   
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #bdc3c7;
+    background: #0d8bdf;
   }
   
   /*
@@ -51,7 +51,7 @@
   
   /* Wrapper for item list */
   .bm-item-list {
-    color: #b8b7ad;
+    color: #1481e7;
     padding: 0.8em;
   }
   
@@ -68,7 +68,7 @@
   /* Individual item */
 .bm-item {
     display: inline-block;
-    color: #d1d1d1;
+    color: rgba(0, 0, 0, 0.3);
     margin-bottom: 10px;
     text-align: left;
     text-decoration: none;
@@ -82,9 +82,9 @@
   .menu-icon {
     display: none;
   }
-
+/* 
   @media (max-width: 650px) {
     .menu-icon {
         
     }
-  }
+  } */
