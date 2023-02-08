@@ -17,8 +17,9 @@ const Navbar = () => {
         <>
             <nav className='navbar'>
                 <div className="container">
-
+                    <div className='head'>
                     <NavLink to="/"><h1 className='logo-text'>Profil<span className='color'>Foto.nu</span></h1><p>Bild & Video i Kungälv, Göteborg.</p></NavLink>
+                    </div>
                     <div onClick={handleShowNavbar} onBlur={hide} onFocus={show} className="menu-icon">
                         <Hamburger size={20} />
                     </div>
