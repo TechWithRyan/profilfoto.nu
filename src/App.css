@@ -30,22 +30,9 @@ body {
   align-items: center;
 }
 
-.navbar {
-  text-decoration: none;
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  height: 4rem;
-  align-items: center;
-}
 
-.navbar li {
-  color: aliceblue;
-  cursor: pointer;
-  list-style: none;
-  font-size: x-large;
-  margin: 20px;
-}
+
+
 
 a:focus {
   color: rgb(19, 124, 252);
@@ -126,17 +113,3 @@ a:link {
   padding: 20px;
 }
 
-@media screen and (max-width: 600px) {
-  .nav {
-    flex-wrap: wrap;
-  }
-
-  .header {
-    flex-wrap: wrap;
-  }
-
-  .nav {
-    flex-wrap: wrap;
-  }
-
-}
