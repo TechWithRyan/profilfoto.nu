@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import { Twirl as Hamburger } from 'hamburger-react'
+import { RxHamburgerMenu } from 'react-icons/rx';
+import { VscChromeClose } from 'react-icons/vsc';
+
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -21,7 +23,11 @@ const Navbar = () => {
                     <NavLink to="/"><h1 className='logo-text'>Profil<span className='color'>Foto.nu</span></h1><p>Bild & Video i Kungälv, Göteborg.</p></NavLink>
                     </div>
                     <div onClick={handleShowNavbar} onBlur={hide} onFocus={show} className="menu-icon">
-                        <Hamburger size={20} />
+                        { showNavbar ? ( 
+                            <VscChromeClose />
+                            ) : ( 
+                                <RxHamburgerMenu size={20} />
+                             )}
                     </div>
                     <div className={`nav-elements ${showNavbar && "active"}`} >
                         <ul>
