@@ -4,7 +4,7 @@ const MediaList = () => {
   return (
     <>
       <div className="media-list">
-        <h1>Media</h1>
+    
   
       
         {/* <ul>
