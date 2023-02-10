@@ -1,21 +1,12 @@
 import React from 'react'
+import Carouseli from '../components/Carousel'
+
 
 const MediaList = () => {
   return (
-    <>
-      <div className="media-list">
-    
-  
-      
-        {/* <ul>
-          <Link to="/Media/1">Photo 1</Link>
-          <br />
-          <Link to="/Media/2">Photo 2</Link>
-          <br />
-          <Link to="/Media/new">New Image</Link>
-        </ul> */}
-      </div>
-    </>
+    <div>
+      <Carouseli />
+    </div>
   )
 }
 

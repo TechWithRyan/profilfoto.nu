@@ -4,9 +4,9 @@ import { Route, Routes } from "react-router-dom"
 import Home from './Pages/Home';
 import Price from './Pages/Price';
 import About from './Pages/About';
-import MediaList from './Pages/MediaList';
 import Media from './Pages/Media';
 import NewMedia from './Pages/NewMedia';
+import MediaList from './Pages/MediaList';
 import NotFound from './Pages/NotFound';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
