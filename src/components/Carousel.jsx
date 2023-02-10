@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from 'react-animated-slider';
-import 'react-animated-slider/build/horizontal.css';
+import horizontalCss from 'react-animated-slider/build/horizontal.css';
 import alex from "../Img/alex.JPG";
 import flex from "../Img/flex.JPG";
 import gang from "../Img/gang.JPG";
