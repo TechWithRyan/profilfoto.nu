@@ -5,13 +5,15 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className='video'>
-      <ReactPlayer url='https://www.youtube.com/watch?v=6g43qj8-3gc&t=3s' />
-    </div>
+    <>
+      <div className="home-info">
+        <h1>Välkommen!</h1>
+        <p>Behöver du foto till sociala medier? Facebook? Tinder? 😍</p>
+      </div>
+    </>
   )
 }
 
 export default Home
 
 
-  

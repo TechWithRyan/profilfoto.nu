@@ -70,13 +70,6 @@ a:link {
   font-size: 2rem;
 }
 
-.home-info {
-  color: white;
-  justify-content: center;
-  display: flex;
-  padding: 30px;
-}
-
 .price-text {
   color: white;
   justify-content: center;
@@ -94,6 +87,7 @@ a:link {
   color: white;
   justify-content: center;
   display: flex;
+  
 }
 
 .media-list {

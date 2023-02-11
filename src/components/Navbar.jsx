@@ -41,7 +41,10 @@ const Navbar = () => {
                                 <NavLink to="/About" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Kontakt</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/Medialist" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Media</NavLink>
+                                <NavLink to="/Medialist" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Foto</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/Video" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Video</NavLink>
                             </li>
                         </ul>
                     </div>
