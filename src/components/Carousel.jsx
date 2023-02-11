@@ -8,10 +8,10 @@ import row from "../Img/row.JPG";
 import "./Carousel.css"
 
 const slides = [
-    {  title: 'Lats Pulldowns', description: 'Back', image: <img src={alex} alt="" className='gallery'/> },
-    {  title: 'Posing', description: 'Biceps', image: <img src={flex} alt="" className='gallery'/> },
-    {  title: 'Community', description: 'Shared Interest', image: <img src={gang} alt="" className='gallery'/> },
-    {  title: 'Back Rows', description: 'Center Back', image: <img src={row} alt="" className='gallery'/> }
+    {  title: '', description: 'Back', image: <img src={alex} alt="" className='gallery'/> },
+    {  title: '', description: 'Biceps', image: <img src={flex} alt="" className='gallery'/> },
+    {  title: '', description: 'Shared Interest', image: <img src={gang} alt="" className='gallery'/> },
+    {  title: '', description: 'Center Back', image: <img src={row} alt="" className='gallery'/> }
 ];
 
 const Carouseli = () => {
