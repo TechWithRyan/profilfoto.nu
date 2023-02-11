@@ -1,4 +1,5 @@
 import React from 'react'
+import "./About.css";
 
 const About = () => {
   return (
@@ -7,16 +8,13 @@ const About = () => {
 
     
     </div>
-    <div className='header'>
-    <p>Ryan-Phillips Cornelio</p>
-    <p>Ålder: 31</p>
+    <div className='om'>
+    <p>Fotograf: Ryan</p>
+    <div><img src="" alt="" /></div>
     </div>
-    <div className="header">
-      <p>
-      ryan.cornelio@gmail.com
-      </p>
-      <p>Telefon: 076-0581267</p>
-    </div>
+    
+    
+ 
     </>
   )
 }

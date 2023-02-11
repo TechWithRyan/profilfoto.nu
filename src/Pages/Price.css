@@ -1,0 +1,19 @@
+.pris-foto {
+    color: white;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    margin: 0 auto;
+    padding: 5vh;
+    height: 250px;
+    border-radius: 1%;
+    margin-top: 5vh;
+  }
+  
+  .pris-foto li {
+    list-style: none;
+    padding: 10px;
+  }
