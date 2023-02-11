@@ -21,7 +21,7 @@ const Carouseli = () => {
             <Slider className="slider">
                 {slides.map((slide, index) => <div key={index} >
                 <h2 className='title'>{slide.title}</h2>
-                    <div>{slide.image}</div>
+                    <div className='image'>{slide.image}</div>
                     <div className='description'>{slide.description}</div>
                 </div>)}
             </Slider>

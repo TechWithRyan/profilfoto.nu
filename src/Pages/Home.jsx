@@ -1,22 +1,17 @@
 import React from 'react'
+import ReactPlayer from 'react-player'
+import "./Home.css";
+
 
 const Home = () => {
   return (
-    <>
-      <div className="header">
-      
-
-      </div>
-      <div className='home-info'>
-  
-        
-        <div className="container">
-
-          <h2>Foto till sociala medier? Facebook? Tinder?</h2>
-        </div>
-      </div>
-    </>
+    <div className='video'>
+      <ReactPlayer url='https://www.youtube.com/watch?v=6g43qj8-3gc&t=3s' />
+    </div>
   )
 }
 
 export default Home
+
+
+  

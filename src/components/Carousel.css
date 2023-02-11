@@ -20,5 +20,11 @@
 
 .slider{
   display: flex;
-
+  
 }
+
+.image{
+  width: 100vw;
+  height: 40vh;
+}
+
