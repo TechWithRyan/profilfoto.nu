@@ -20,7 +20,7 @@ const Navbar = () => {
             <nav className='navbar'>
                 <div className="container">
                     <div className='head'>
-                    <NavLink to="/"><h1 className='logo-text'>Profil<span className='color'>Foto.nu</span></h1><p>Bild & Video i Kungälv, Göteborg.</p></NavLink>
+                    <NavLink to="/"><h1 className='logo-text'>Profil<span className='color'>Foto.nu</span></h1></NavLink>
                     </div>
                     <div onClick={handleShowNavbar} onBlur={hide} onFocus={show} className="menu-icon">
                         { showNavbar ? ( 
@@ -41,7 +41,10 @@ const Navbar = () => {
                                 <NavLink to="/About" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Kontakt</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/Medialist" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Media</NavLink>
+                                <NavLink to="/Medialist" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Foto</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/Film" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Film</NavLink>
                             </li>
                         </ul>
                     </div>

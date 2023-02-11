@@ -1,0 +1,15 @@
+.player-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.home-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    height: 15vh;
+}

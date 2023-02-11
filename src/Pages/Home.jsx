@@ -1,22 +1,20 @@
 import React from 'react'
+import ReactPlayer from 'react-player'
+import "./Home.css";
+
 
 const Home = () => {
   return (
     <>
-      <div className="header">
-      
+      <div className="home-info">
 
-      </div>
-      <div className='home-info'>
-  
-        
-        <div className="container">
-
-          <h2>Foto till sociala medier? Facebook? Tinder?</h2>
-        </div>
+        <h3>Bild & Film i Kungälv, Göteborg.</h3>
+        <p>Behöver du foto till sociala medier? Facebook? Tinder? 😍</p>
       </div>
     </>
   )
 }
 
 export default Home
+
+

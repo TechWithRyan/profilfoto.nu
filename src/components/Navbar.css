@@ -2,22 +2,38 @@
     display: none;
 }
 
+.container {
+
+
+    align-items: center;
+    justify-content: flex-end;
+    float: right;
+}
+
 .nav-elements {
     height: 10vh;
     align-items: flex-start;
 }
 
+.head {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
 .navbar {
-    height: 80px;
-    background-color: transparent;
-    position: relative;
+    height: 16vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 15px 15px;
-    display: flex;
+    padding: 10px;
+
     justify-content: space-between;
     align-items: right;
     height: 100%;
@@ -58,6 +74,13 @@
     .menu-icon {
         display: block;
         cursor: pointer;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
     }
 
     .nav-elements {
@@ -69,9 +92,9 @@
         height: 30vh;
         transition: all 0.3s ease-in;
         overflow: hidden;
-        
+
     }
-    
+
     .nav-elements.active {
         width: 100%;
         height: 30vh;

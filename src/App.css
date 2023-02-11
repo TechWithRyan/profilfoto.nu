@@ -30,10 +30,6 @@ body {
   align-items: center;
 }
 
-
-
-
-
 a:focus {
   color: rgb(19, 124, 252);
 }
@@ -70,22 +66,22 @@ a:link {
   font-size: 2rem;
 }
 
-.home-info {
-  color: white;
-  justify-content: center;
-  display: flex;
-  padding: 30px;
-}
-
-.price-text {
+.pris-foto {
   color: white;
   justify-content: center;
   display: flex;
   text-decoration: none;
   list-style: none;
+  background-color: rgb(0, 0, 0);
+  width: 20vw;
+  margin: 0 auto;
+  padding: 5vh;
+  height: 35vh;
+  border-radius: 1%;
+  margin-top: 5vh;
 }
 
-.price-text li {
+.pris-foto li {
   list-style: none;
   padding: 10px;
 }
@@ -94,6 +90,7 @@ a:link {
   color: white;
   justify-content: center;
   display: flex;
+  
 }
 
 .media-list {
@@ -112,4 +109,3 @@ a:link {
 .header p {
   padding: 20px;
 }
-

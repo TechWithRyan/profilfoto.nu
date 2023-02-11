@@ -1,6 +1,6 @@
 import React from 'react'
 import Carouseli from '../components/Carousel'
-
+import "./Home.css";
 
 const MediaList = () => {
   return (
@@ -11,3 +11,7 @@ const MediaList = () => {
 }
 
 export default MediaList
+
+
+
+

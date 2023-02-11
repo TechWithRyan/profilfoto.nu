@@ -10,6 +10,7 @@ import MediaList from './Pages/MediaList';
 import NotFound from './Pages/NotFound';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Film from './Pages/Film';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/Medialist" element={<MediaList />} />
         <Route path="/Media/:id" element={<Media />} />
         <Route path="/Media/new" element={<NewMedia />} />
+        <Route path="/Film" element={<Film />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
         <Footer />
