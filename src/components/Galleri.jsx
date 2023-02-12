@@ -1,28 +1,49 @@
 import React from 'react'
 import { PhotoAlbum } from 'react-photo-album';
-
+import alex from "../Img/alex.JPG"
+import gang from "../Img/gang.JPG"
+import flex from "../Img/flex.JPG"
+import photo from "../Img/photo.JPG"
+import photo2 from "../Img/photo2.JPG"
+import bg6 from "../Img/bg6.jpg"
+import side2 from "../Img/side2.JPG"
 import "./Galleri.css"
 
 const photos = [
   {
-      src: "https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG9ncmFwaHl8ZW58MHx8MHx8&auto=format&fit=crop&w=2000&q=60",
-      width: 800,
-      height: 600
+    src: [alex],
+    width: 800,
+    height: 600
   },
   {
-      src: "https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cGhvdG9ncmFwaHl8ZW58MHx8MHx8&auto=format&fit=crop&w=2000&q=60",
-      width: 800,
-      height: 600
+    src: [gang],
+    width: 800,
+    height: 600
   },
   {
-      src: "https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG9ncmFwaHl8ZW58MHx8MHx8&auto=format&fit=crop&w=2000&q=60",
-      width: 800,
-      height: 600
+    src: [flex],
+    width: 800,
+    height: 600
   },
   {
-      src: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG9ncmFwaHl8ZW58MHx8MHx8&auto=format&fit=crop&w=2000&q=60",
-      width: 1600,
-      height: 900
+    src: [photo],
+    width: 800,
+    height: 600
+  },
+  {
+    src: [photo2],
+    width: 800,
+    height: 600
+  },
+  {
+    src: [bg6],
+    width: 800,
+    height: 600
+  },
+  {
+    src: [side2],
+    width: 400,
+    height: 600,
   }
 ];
 
@@ -30,7 +51,7 @@ const photos = [
 
 const Galleri = () => {
   return (
-    <PhotoAlbum layout="rows" photos={photos} />
+    <PhotoAlbum layout="columns" photos={photos} className="images"/>
   )
 }
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { VscChromeClose } from 'react-icons/vsc';
-
+import P from "../Img/P.png";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -18,6 +18,7 @@ const Navbar = () => {
     return (
         <>
             <nav className='navbar'>
+                        <img src={P} alt="" className='logo'/>
                 <div className="container">
                     <div className='head'>
                     <NavLink to="/"><h1 className='logo-text'>Profil<span className='color'>Foto.nu</span></h1></NavLink>
@@ -27,7 +28,7 @@ const Navbar = () => {
                             <VscChromeClose />
                             ) : ( 
                                 <RxHamburgerMenu size={20} />
-                             )}
+                                )}
                     </div>
                     <div className={`nav-elements ${showNavbar && "active"}`} >
                         <ul>

@@ -1,8 +1,18 @@
 .react-player {
-   
+   height: 70vh;
+   width: 100vw;
 }
 
 .player-wrapper{
-    width: 60vw;
-    height: 20vh;
+    height: 70vh;
+    width: 100%;
 }
+
+@media (max-width: 650px) {
+    
+   
+    .react-player {
+        
+    }
+}
+
