@@ -1,5 +1,7 @@
-.Galleri {
-    
-    padding: 5vh;
-    
+
+.images{
+    display: flex;
+    padding: 10vh;
+    border: 2px solid white;
+    margin: 20px;
 }

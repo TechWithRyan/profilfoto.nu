@@ -10,7 +10,7 @@ const About = () => {
     </div>
     <div className='om'>
     <p>Fotograf: Ryan</p>
-    <div><img src="" alt="" /></div>
+    <div><img src="/src/Img/ryan.jpg" alt="" /></div>
     </div>
     
     
