@@ -13,3 +13,11 @@
     align-items: center;
     height: 15vh;
 }
+
+@media (max-width: 650px) {
+    .home-info{
+        
+        margin: 10vw;
+        
+    }
+}
