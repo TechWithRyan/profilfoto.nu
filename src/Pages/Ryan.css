@@ -1,6 +1,44 @@
-.om {
-    background-color: black 0.5;
-    width: 40vw;
-    height: 40vh;
+.photo-box {
+    width: 40%;
+    height: 20vh;
     display: flex;
+    margin: 50px;
+/*     border: 2px solid red; */
+    flex-direction: column;
+}
+
+.about-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 50px;
+/*     border: 2px solid blue; */
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.banner {
+    background-color: rgb(19, 124, 252);
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.text span, .name{
+    margin: 1rem;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+
+@media (max-width: 650px) {
+    .about-container{
+        width: 100%;
+    }
+    .photo-box{
+        width: 80%;
+    }
 }
