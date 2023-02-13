@@ -18,28 +18,27 @@ const Navbar = () => {
     return (
         <>
             <nav className='navbar'>
-                        <img src={P} alt="" className='logo'/>
+                <img src={P} alt="" className='logo' />
                 <div className="container">
                     <div className='head'>
-                    <NavLink to="/"><h1 className='logo-text'>Profil<span className='color'>Foto.nu</span></h1></NavLink>
+                        <NavLink to="/"><h1 className='logo-text'>Profil<span className='color'>Foto.nu</span></h1></NavLink>
                     </div>
+
                     <div onClick={handleShowNavbar} onBlur={hide} onFocus={show} className="menu-icon">
-                        { showNavbar ? ( 
+                        {showNavbar ? (
                             <VscChromeClose />
-                            ) : ( 
-                                <RxHamburgerMenu size={20} />
-                                )}
+                        ) : (
+                            <RxHamburgerMenu size={20} />
+                        )}
                     </div>
                     <div className={`nav-elements ${showNavbar && "active"}`} >
                         <ul>
                             <li>
                                 <NavLink to="/" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Hem</NavLink>
                             </li>
+                           
                             <li>
-                                <NavLink to="/Price" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Priser</NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/About" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Kontakt</NavLink>
+                                <NavLink to="/Ryan" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Ryan</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/Galleri" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Galleri</NavLink>
