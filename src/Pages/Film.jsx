@@ -12,7 +12,7 @@ const Film = () => {
           <ReactPlayer
             className='react-player'
             url='https://www.youtube.com/watch?v=6g43qj8-3gc&t=3s'
-            width='100%'
+            width='50%'
             height='100%'
             controls='true'
           />
