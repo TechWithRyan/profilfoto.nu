@@ -40,9 +40,9 @@ const Navbar = () => {
                             <li>
                                 <NavLink to="/Ryan" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Ryan</NavLink>
                             </li>
-                            <li>
+                            {/* <li>
                                 <NavLink to="/Galleri" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Galleri</NavLink>
-                            </li>
+                            </li> */}
                             <li>
                                 <NavLink to="/Film" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Film</NavLink>
                             </li>

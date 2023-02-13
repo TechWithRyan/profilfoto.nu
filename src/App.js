@@ -8,7 +8,7 @@ import NotFound from './Pages/NotFound';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Film from './Pages/Film';
-import Galleri from './components/Galleri';
+/* import Galleri from './components/Galleri'; */
 
 
 function App() {
@@ -16,12 +16,13 @@ function App() {
   return (
     <>
       <Navbar />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Media" />
         <Route path="/Pris" element={<Price />} />
         <Route path="/Ryan" element={<Ryan />} />
-        <Route path="/Galleri" element={<Galleri />} />
+{/*         <Route path="/Galleri" element={<Galleri />} /> */}
         <Route path="/Film" element={<Film />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

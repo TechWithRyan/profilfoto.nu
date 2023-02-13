@@ -7,7 +7,7 @@
   color: white;
 }
 
-body {
+body::-webkit-scrollbar {
   /*   background-image: url("./Img/bg4.jpg"); */
   background-color: black;
   background-size: cover;
@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  display: none;
 }
 
 .App {

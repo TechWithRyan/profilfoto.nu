@@ -1,11 +1,43 @@
 .react-player {
-   height: 70vh;
+   height: 80vh;
    width: 100vw;
+/*    border: 2px red solid; */
+   display: flex;
 }
 
 .player-wrapper{
-    height: 70vh;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*     border: 2px rgb(33, 128, 236) solid; */
+}
+
+.video-limiter{
+    height: 100%;
     width: 100%;
 }
 
 
+.text {
+    color: black;
+    height: 50vh;
+}
+
+@media (max-width: 650px) {
+     /* .react-player{
+        width: 30%;
+        height: auto;
+
+    } */
+    .player-wrapper{
+        max-width:max-content;
+        height:fit-content;
+ 
+    } 
+    .video-limiter {
+        max-width: 100%;
+        height: auto;
+    }
+}
