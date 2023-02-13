@@ -20,17 +20,22 @@
 }
 
 .navbar {
-    height: 16vh;
+    height: 12vh;
     background-color: black;
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
+.navbar:hover{
+    color: #137CFC;
+    transition: 1s ease-in;
+}
+
 .logo {
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     align-items: center;
     margin: 10px;
     cursor: pointer;
@@ -60,12 +65,15 @@
     font-size: 18px;
     color: white;
     text-decoration: none;
+  
 }
 
 .nav-elements ul a.active {
     color: white;
     font-weight: 800;
     position: relative;
+    color: #137CFC;
+    transition: 0.3s ease-in;
 }
 
 .nav-elements ul a.active::after {

@@ -3,7 +3,7 @@ import React from 'react';
 import { Route, Routes } from "react-router-dom"
 import Home from './Pages/Home';
 import Price from './Pages/Price';
-import About from './Pages/About';
+import Ryan from '../src/Pages/Ryan';
 import NotFound from './Pages/NotFound';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
@@ -19,8 +19,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Media" />
-        <Route path="/Price" element={<Price />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/Pris" element={<Price />} />
+        <Route path="/Ryan" element={<Ryan />} />
         <Route path="/Galleri" element={<Galleri />} />
         <Route path="/Film" element={<Film />} />
         <Route path="*" element={<NotFound />} />

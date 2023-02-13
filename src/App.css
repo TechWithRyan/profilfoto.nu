@@ -8,7 +8,8 @@
 }
 
 body {
-  background-image: url("./Img/bg4.jpg");
+  /*   background-image: url("./Img/bg4.jpg"); */
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: fill;
@@ -70,7 +71,7 @@ a:link {
   color: white;
   justify-content: center;
   display: flex;
-  
+
 }
 
 .media-list {
