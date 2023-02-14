@@ -31,12 +31,13 @@ const Navbar = () => {
                             <RxHamburgerMenu size={20} />
                         )}
                     </div>
+                    
                     <div className={`nav-elements ${showNavbar && "active"}`} >
                         <ul>
                             <li>
                                 <NavLink to="/" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Hem</NavLink>
                             </li>
-                           
+
                             <li>
                                 <NavLink to="/Ryan" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Ryan</NavLink>
                             </li>
