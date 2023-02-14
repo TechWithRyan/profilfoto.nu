@@ -20,7 +20,7 @@
 }
 
 .navbar {
-    height: 14vh;
+    height: 12vh;
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
@@ -63,10 +63,6 @@
     text-decoration: none;
 }
 
-.menu {
-    background-color: rgb(19, 124, 252);
-}
-
 .nav-elements ul a.active {
     color: white;
     font-weight: 800;
@@ -83,19 +79,25 @@
     height: 4px;
 }
 
+.head {
+    display: flex;
+    margin:unset;
+
+}
+
 @media (max-width: 650px) {
     .menu-icon {
         display: block;
         cursor: pointer;
         display: flex;
         flex-direction: column;
-        margin-left: 95%;
+        margin-left: 5%;
 
     }
 
     .container {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .nav-elements {
@@ -105,7 +107,7 @@
         top: 80px;
         width: 0px;
         transition: all 0.3s ease-in;
-        height: calc(100vh - 60px);
+        height: calc(60px - 60px);
         overflow: hidden;
         background-color: rgb(0, 0, 0);
     }
@@ -125,6 +127,15 @@
     .nav-elements ul li {
         margin-left: 0px;
         margin-top: 20px;
+    }
+
+    .logo-text {
+        display: flex;
+        justify-content: center;
+    }´
+
+    img .logo  {
+        display: none;
     }
 
 }
