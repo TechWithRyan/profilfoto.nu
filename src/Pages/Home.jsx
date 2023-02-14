@@ -65,11 +65,11 @@ const photos = [
     width: 800,
     height: 600
   },
-  {
+  /* {
     src: [gang],
     width: 800,
     height: 600
-  },
+  }, */
   {
     src: [flex],
     width: 800,
@@ -80,11 +80,11 @@ const photos = [
     width: 800,
     height: 600
   },
-  {
+ /*  {
     src: [photo2],
     width: 800,
     height: 600
-  },
+  }, */
   {
     src: [bg6],
     width: 800,
