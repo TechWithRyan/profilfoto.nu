@@ -15,8 +15,6 @@ import anton1 from "../Img/anton1.JPG"
 import anton2 from "../Img/anton2.JPG"
 import anton3 from "../Img/anton3.JPG"
 import anton4 from "../Img/anton4.JPG"
-import "../Pages/Home.css"
-
 
 
 const photos = [
@@ -24,17 +22,17 @@ const photos = [
     src: [anton1],
     width: 800,
     height: 500
-  }, 
+  },
   {
     src: [anton2],
     width: 800,
     height: 500
-  }, 
+  },
   {
     src: [anton3],
     width: 800,
     height: 500
-  }, 
+  },
   {
     src: [anton4],
     width: 800,
@@ -80,11 +78,11 @@ const photos = [
     width: 800,
     height: 600
   },
- /*  {
-    src: [photo2],
-    width: 800,
-    height: 600
-  }, */
+  /*  {
+     src: [photo2],
+     width: 800,
+     height: 600
+   }, */
   {
     src: [bg6],
     width: 800,
@@ -98,28 +96,11 @@ const photos = [
 ];
 
 
-
-const Home = () => {
-  return (
-    <>
     <div className="gallery-container">
-      
-    <h3>Bild & Film i Kungälv, Göteborg.</h3>
+      <h3>Bild & Film i Kungälv, Göteborg.</h3>
     </div>
-    <div className='images'>
 
-    <PhotoAlbum layout="columns" photos={photos} />
-    </div>
-    </>
-  )
+
 }
 
-export default Home
-
-
-
-
-
-
-
-
+export default Photos

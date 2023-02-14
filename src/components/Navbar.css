@@ -34,10 +34,10 @@
 
 .logo {
     display: flex;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     align-items: center;
-    margin: 10px;
+    margin: 15px;
     cursor: pointer;
 }
 
