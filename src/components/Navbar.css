@@ -9,8 +9,9 @@
 }
 
 .nav-elements {
-    height: 10vh;
+    height: 20vh;
     align-items: flex-start;
+    box-shadow: 1cm; 
 }
 
 .head {
@@ -20,12 +21,11 @@
 }
 
 .navbar {
-    height: 12vh;
+    height: 18vh;
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     flex-direction: row;
-
 }
 
 .navbar:hover {
@@ -81,7 +81,6 @@
 .head {
     display: flex;
     margin:unset;
-
 }
 
 @media (max-width: 650px) {
@@ -102,20 +101,22 @@
     .nav-elements {
         position: absolute;
         right: 0;
-        margin-top: 62px;
+        margin-top: 70px;
         top: 80px;
         width: 0px;
         transition: all 0.3s ease-in;
-        height: calc(60px - 60px);
+        height: calc(20px - 20px);
         overflow: hidden;
-        background-color: rgb(0, 0, 0);
+      
     }
 
     .nav-elements.active {
         width: 200px;
-        height: 300px;
+        height: 150px;
         justify-content: center;
         display: flex;
+        background-color: #137CFC;
+        box-shadow: whitesmoke;
     }
 
     .nav-elements ul {
@@ -131,6 +132,9 @@
     .logo-text {
         display: flex;
         justify-content: center;
+    }
+    .navbar {
+        height: 18vh;
     }
 
 
