@@ -38,7 +38,6 @@
     width: 80px;
     height: 80px;
     align-items: center;
-    margin: 15px;
     cursor: pointer;
 }
 
@@ -132,10 +131,7 @@
     .logo-text {
         display: flex;
         justify-content: center;
-    }´
-
-    img .logo  {
-        display: none;
     }
+
 
 }
