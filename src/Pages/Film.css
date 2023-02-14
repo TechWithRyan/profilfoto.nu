@@ -1,14 +1,9 @@
-.react-player {
-   height: 80vh;
-   width: 100vw;
-/*    border: 2px red solid; */
-   display: flex;
-}
+
 
 .player-wrapper{
     height: 100vh;
     width: 100vw;
-    display: flex;
+    
     flex-direction: column;
     align-items: center;
 /*     border: 2px rgb(33, 128, 236) solid; */
@@ -33,13 +28,12 @@
     } */
     .player-wrapper{
         width: 100vw;
-        height:fit-content;
- 
+        height: 100vh;
     } 
     .video-limiter {
         width: 100vw;
         justify-content: center;
         display: flex;
-        height: auto;
+        height: 100vh;
     }
 }
