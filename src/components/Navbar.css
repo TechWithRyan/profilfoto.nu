@@ -20,11 +20,12 @@
 }
 
 .navbar {
-    height: 12vh;
+    height: 14vh;
     background-color: black;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    contain: content;
 }
 
 .navbar:hover{
@@ -125,6 +126,10 @@
     .nav-elements ul li {
         margin-left: 0px;
         margin-top: 20px;
+    }
+
+    .logo{
+
     }
 
 }
