@@ -14,7 +14,7 @@ const Film = () => {
             url='https://www.youtube.com/watch?v=6g43qj8-3gc&t=3s'
             width='50%'
             height='100%'
-            controls='true'
+            controls={true}
           />
           <p className='text'>Video ifrån Iron Works i Göteborg</p>
         </div>
