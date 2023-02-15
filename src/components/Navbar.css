@@ -9,23 +9,28 @@
 }
 
 .nav-elements {
-    height: 20vh;
-    align-items: flex-start;
-    box-shadow: 1cm; 
+    align-items: center;
+    height: 7vh;
+
 }
 
 .head {
     display: flex;
     justify-content: center;
     padding: 10px;
+    align-items: center;
+
+    height: 10vh;
 }
 
 .navbar {
-    height: 18vh;
+    height: 20vh;
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     flex-direction: row;
+
+    contain: content;
 }
 
 .navbar:hover {

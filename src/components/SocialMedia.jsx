@@ -1,7 +1,5 @@
 import React from 'react';
 import "../components/SocialMedia.css"
-import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const SocialMedia = () => {
 
