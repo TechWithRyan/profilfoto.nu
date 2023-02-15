@@ -15,12 +15,15 @@
 }
 
 #root {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
     background-color: white;
 }
 
 .images {
     margin: 10px;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 
@@ -42,6 +45,7 @@
     .home-info {
         margin: 10vw;
     }
+
     .footer {
         position: absolute;
     }

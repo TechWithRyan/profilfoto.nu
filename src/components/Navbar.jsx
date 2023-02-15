@@ -4,6 +4,8 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 import { VscChromeClose } from 'react-icons/vsc';
 import P from "../Img/P.png";
 import "./Navbar.css";
+import SocialMedia from './SocialMedia';
+
 
 const Navbar = () => {
     const [showNavbar, setShowNavbar] = useState(false);
@@ -24,14 +26,15 @@ const Navbar = () => {
                         <NavLink to="/"><h1 className='logo-text'>Profil<span className='color'>Foto.nu</span></h1></NavLink>
                     </div>
 
+
                     <div onClick={handleShowNavbar} onBlur={hide} onFocus={show} className="menu-icon">
                         {showNavbar ? (
                             <VscChromeClose />
-                        ) : (
-                            <RxHamburgerMenu size={20} />
-                        )}
+                            ) : (
+                                <RxHamburgerMenu size={20} />
+                                )}
                     </div>
-                    
+
                     <div className={`nav-elements ${showNavbar && "active"}`} >
                         <ul>
                             <li>
@@ -51,7 +54,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-
+                            <SocialMedia />
         </>
     )
 }

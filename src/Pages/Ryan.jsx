@@ -1,8 +1,6 @@
 import "./Ryan.css";
-import ry3 from "../Img/ry3.png"
 import ry2 from "../Img/ry2.png"
-import ry1 from "../Img/ry1.png"
-import React, { Component } from 'react'
+import React from 'react'
 
 const Ryan = () => {
   return (
