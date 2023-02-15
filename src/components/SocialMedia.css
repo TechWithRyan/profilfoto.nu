@@ -95,3 +95,13 @@ body {
   .linkedin:hover {
     background-color: #0976B4;
   }
+
+  @media (max-width: 650px) {
+    .social {
+    margin-left: -200px;
+    width: 210px;
+    padding: 0;
+    display: inline-table;
+    height: 0px;
+    }
+  }
