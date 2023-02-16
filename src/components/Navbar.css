@@ -49,6 +49,8 @@
     justify-content: space-between;
     align-items: right;
     height: 100%;
+
+    width: 500px;
 }
 
 /* .nav-elements {
@@ -58,11 +60,13 @@
 } */
 
 .nav-elements ul {
-    height: 30vh;
+    height: 8vh;
+    width: 100%;
     display: flex;
-    justify-content:space-evenly;
-    contain: content;
     list-style-type: none;
+    justify-content:space-around;
+    contain: content;
+
 }
 
 .nav-elements ul a {
@@ -72,8 +76,8 @@
 }
 
 .nav-elements ul a.active {
-    color: white;
-    font-weight: 800;
+    color: #137CFC;
+    font-weight: 500;
     position:relative;
     transition: 0.3s ease-in;
 }

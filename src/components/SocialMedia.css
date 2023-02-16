@@ -1,6 +1,5 @@
 body {
     background-color: #2c3e50;
-    font-family: 'nunito';
   }
   
   a {
@@ -22,9 +21,9 @@ body {
     width: 10px;
     position: fixed;
     text-align: center;
-    padding: 10px;
+    padding: 0px;
     margin-left: 20px;
-
+    justify-content: center;
   }
   
   p i {
@@ -56,6 +55,11 @@ body {
     -webkit-transition-delay: 0.2s;
     box-shadow: 0px 0px 6px 0px #3E3D3D;
     cursor: pointer;
+  } 
+
+  .social, .github {
+    height: 7vh;
+    justify-content: end;
   }
   
   .social:hover {
