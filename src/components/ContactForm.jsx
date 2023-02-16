@@ -64,7 +64,7 @@ const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 console.log('message sent')
-                e.target.reset(alert('Skickat!'));
+                e.target.reset(alert('Tack för ditt meddelande!'));
               
             }, (error) => {
                 console.log(error.text);

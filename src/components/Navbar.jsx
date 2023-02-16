@@ -20,7 +20,8 @@ const Navbar = () => {
     return (
         <>
             <nav className='navbar'>
-                <img src={P} alt="" className='logo' />
+                <a href="/"><img src={P} alt="" className='logo' /></a>
+                
                 <div className="container">
                     <div className='head'>
                         <NavLink to="/"><h1 className='logo-text'>Profil<span className='color'>Foto.nu</span></h1></NavLink>
