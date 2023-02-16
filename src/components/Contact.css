@@ -15,6 +15,7 @@
     display: flex;
 }
 
-body {
-    background-color: rgb(20, 117, 243);
+.form-text {
+    color: black;
 }
+

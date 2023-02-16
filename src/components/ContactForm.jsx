@@ -64,10 +64,10 @@ const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 console.log('message sent')
+                e.target.reset(alert('Skickat!'));
               
             }, (error) => {
                 console.log(error.text);
-                e.target.reset();
             });
     };
 
@@ -79,9 +79,9 @@ return (
     <h1>Nå mig här ✉️</h1>
     <form ref={form} onSubmit={sendEmail}>
       <label>Namn</label>
-      <input type="text" name="user_name" />
+      <input type="text" name="user_name" className="form-text"/>
       <label>Epost</label>
-      <input type="email" name="user_email" />
+      <input type="email" name="user_email" className="form-text"/>
       <label>Meddelande</label>
       <textarea name="message" />
       <input type="submit" value="Skicka" />
