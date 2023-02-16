@@ -20,9 +20,9 @@ body {
     height: 250px;
     width: 15px;
     position: fixed;
-    text-align: end;
+    text-align: center;
     padding: 0px;
-    margin-left: 35px;
+    margin-left: 20px;
     justify-content: center;
   }
   
