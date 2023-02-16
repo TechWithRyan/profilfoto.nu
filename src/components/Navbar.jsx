@@ -50,6 +50,9 @@ const Navbar = () => {
                             <li>
                                 <NavLink to="/Film" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Film</NavLink>
                             </li>
+                            <li>
+                                <NavLink to="/Kontakt" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Kontakt</NavLink>
+                            </li>
                         </ul>
                     </div>
                 </div>
