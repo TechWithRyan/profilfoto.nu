@@ -21,8 +21,8 @@ body {
     width: 15px;
     position: fixed;
     text-align: center;
-    padding: 0px;
-    margin-left: 20px;
+    padding-top: 50px;
+    margin-left: 30px;
     justify-content: center;
   }
   
@@ -58,8 +58,9 @@ body {
   } 
 
   .social, .github {
+    display: flex;
     height: 7vh;
-    justify-content: end;
+    justify-content: center;
   }
   
   .social:hover {
@@ -81,15 +82,18 @@ body {
   }
   
   .linkedin p i {
-    left: 20px;
+    left: 65px;
+  }
+  .facebook p i {
+    left: 55px;
   }
   
-  .google p i {
-    left: 35px;
+  .github p i {
+    left: 70px;
   }
   
   .youtube p i {
-    left: 18px;
+    left: 65px;
   }
   
   .youtube:hover {
