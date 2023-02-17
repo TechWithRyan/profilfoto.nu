@@ -1,18 +1,18 @@
 import React from 'react'
 import { PhotoAlbum } from 'react-photo-album';
-import alex from "../Img/alex.JPG"
-import flex from "../Img/flex.JPG"
-import photo from "../Img/photo.JPG"
+import alex from "../Img/alex.jpg"
+import flex from "../Img/flex.jpg"
+import photo from "../Img/photo.jpg"
 import bg6 from "../Img/bg6.jpg"
-import side2 from "../Img/side2.JPG"
+import side2 from "../Img/side2.jpg"
 import ry1 from "../Img/ry1.png"
 import ry2 from "../Img/ry2.png"
 import ry3 from "../Img/ry3.png"
 import ry4 from "../Img/ry4.png"
-import anton1 from "../Img/anton1.JPG"
-import anton2 from "../Img/anton2.JPG"
-import anton3 from "../Img/anton3.JPG"
-import anton4 from "../Img/anton4.JPG"
+import anton1 from "../Img/anton1.jpg"
+import anton2 from "../Img/anton2.jpg"
+import anton3 from "../Img/anton3.jpg"
+import anton4 from "../Img/anton4.jpg"
 import "../Pages/Home.css"
 
 
