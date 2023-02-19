@@ -39,17 +39,17 @@ const Navbar = () => {
                     <div className={`nav-elements ${showNavbar && "active"}`} >
                         <ul>
                             <li>
-                                <NavLink to="/" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Hem</NavLink>
+                                <NavLink to="/" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Foto</NavLink>
                             </li>
 
-                            <li>
-                                <NavLink to="/Ryan" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Ryan</NavLink>
-                            </li>
                             {/* <li>
                                 <NavLink to="/Galleri" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Galleri</NavLink>
                             </li> */}
                             <li>
-                                <NavLink to="/Film" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Film</NavLink>
+                                <NavLink to="/Film" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Video</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/Ryan" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Ryan</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/Kontakt" onClick={handleShowNavbar} onBlur={hide} onFocus={show}>Kontakt</NavLink>
